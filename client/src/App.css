@@ -1,0 +1,55 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 13px;
+    padding:  0 10px;
+    margin-bottom: 30px;
+}
+.Navbar>div>ul{
+    display: flex;
+}
+.Navbar>div>ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-size:22px;
+    font-weight: 500;
+    color: navajowhite;
+    text-decoration: inherit;
+}
+.Navbar>div>ul li:hover{
+    color: whitesmoke;
+}
+
+table,td{
+    padding: 20px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+.username{
+    height: 20px;
+    width: 300px;
+}
+label{
+    font-size: 2em;
+}
+.form{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form input[type="text" i]{
+    border-radius: 19px;
+    padding: 20px;
+    font-size:.8em
+}
+.form button{
+    padding:20px 10px;
+    text-transform: uppercase;
+    width:200px;
+    font-size: 20px;
+}
